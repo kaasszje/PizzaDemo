@@ -49,7 +49,7 @@ public class PizzaOrder {
         System.out.println("Totale bestelling is:");
         System.out.println("===================================");
         for (int i=0;i<pizzas.size();i++) {
-            System.out.println("Pizza " + i+1 + ":");
+            System.out.println("Pizza " + (i+1) + ":");
             pizzas.get(i).getDescription();
             System.out.println("===================================");
         }
